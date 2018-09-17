@@ -43,3 +43,5 @@ In the logging output you'll find this error:
     	at io.micrometer.core.instrument.binder.jvm.JvmGcMetrics.lambda$bindTo$0(JvmGcMetrics.java:170) ~[micrometer-core-1.0.6.jar:1.0.6]
     	at sun.management.NotificationEmitterSupport.sendNotification(NotificationEmitterSupport.java:156) ~[na:1.8.0_181]
     	at sun.management.GarbageCollectorImpl.createGCNotification(GarbageCollectorImpl.java:143) ~[na:1.8.0_181]
+
+Set a breakpoint at `FluxBufferPredicate` on line 198 to catch this when running the test in debug mode.
