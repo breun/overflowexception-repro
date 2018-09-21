@@ -1,3 +1,5 @@
+> **UPDATE:** The issue has been fixed.
+
 # overflowexception-repro
 
 This repository demonstrates the occurence of an `OverflowException` when trying to batch StatsD metrics using Micrometer.
